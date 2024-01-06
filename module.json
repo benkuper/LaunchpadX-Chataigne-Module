@@ -1,0 +1,833 @@
+{
+	"name": "Launchpad X",
+	"type": "MIDI",
+	"path": "Hardware",
+	"version": "1.0.0",
+	"description": "MIDI Module for Novation's Launchpad X",
+	"url": "https://github.com/benkuper/LaunchpadX-Chataigne-Module",
+	"downloadURL": "https://github.com/benkuper/LaunchpadX-Chataigne-Module/archive/refs/heads/main.zip",
+	"hasInput": true,
+	"hasOutput": true,
+	"hideDefaultCommands": true,
+	"parameters": {
+		"Highlight on Press": {
+			"type": "Boolean"
+		},
+		"Highlight Color": {
+			"type": "Color"
+		},
+
+		"type": "Container",
+		"Colors": {
+			"type": "Container",
+			"Transport": {
+				"type": "Container",
+				"Up": {
+					"type": "Color"
+				},
+				"Down": {
+					"type": "Color"
+				},
+				"Left": {
+					"type": "Color"
+				},
+				"Right": {
+					"type": "Color"
+				},
+				"Session": {
+					"type": "Color"
+				},
+				"Note": {
+					"type": "Color"
+				},
+				"Custom": {
+					"type": "Color"
+				},
+				"Capture": {
+					"type": "Color"
+				},
+				"Logo": {
+					"type": "Color"
+				}
+			},
+			"Row 1": {
+				"type": "Container",
+				"1": {
+					"type": "Color"
+				},
+				"2": {
+					"type": "Color"
+				},
+				"3": {
+					"type": "Color"
+				},
+				"4": {
+					"type": "Color"
+				},
+				"5": {
+					"type": "Color"
+				},
+				"6": {
+					"type": "Color"
+				},
+				"7": {
+					"type": "Color"
+				},
+				"8": {
+					"type": "Color"
+				},
+				"9": {
+					"type": "Color"
+				}
+			},
+			"Row 2": {
+				"type": "Container",
+				"1": {
+					"type": "Color"
+				},
+				"2": {
+					"type": "Color"
+				},
+				"3": {
+					"type": "Color"
+				},
+				"4": {
+					"type": "Color"
+				},
+				"5": {
+					"type": "Color"
+				},
+				"6": {
+					"type": "Color"
+				},
+				"7": {
+					"type": "Color"
+				},
+				"8": {
+					"type": "Color"
+				},
+				"9": {
+					"type": "Color"
+				}
+			},
+			"Row 3": {
+				"type": "Container",
+				"1": {
+					"type": "Color"
+				},
+				"2": {
+					"type": "Color"
+				},
+				"3": {
+					"type": "Color"
+				},
+				"4": {
+					"type": "Color"
+				},
+				"5": {
+					"type": "Color"
+				},
+				"6": {
+					"type": "Color"
+				},
+				"7": {
+					"type": "Color"
+				},
+				"8": {
+					"type": "Color"
+				},
+				"9": {
+					"type": "Color"
+				}
+			},
+			"Row 4": {
+				"type": "Container",
+				"1": {
+					"type": "Color"
+				},
+				"2": {
+					"type": "Color"
+				},
+				"3": {
+					"type": "Color"
+				},
+				"4": {
+					"type": "Color"
+				},
+				"5": {
+					"type": "Color"
+				},
+				"6": {
+					"type": "Color"
+				},
+				"7": {
+					"type": "Color"
+				},
+				"8": {
+					"type": "Color"
+				},
+				"9": {
+					"type": "Color"
+				}
+			},
+			"Row 5": {
+				"type": "Container",
+				"1": {
+					"type": "Color"
+				},
+				"2": {
+					"type": "Color"
+				},
+				"3": {
+					"type": "Color"
+				},
+				"4": {
+					"type": "Color"
+				},
+				"5": {
+					"type": "Color"
+				},
+				"6": {
+					"type": "Color"
+				},
+				"7": {
+					"type": "Color"
+				},
+				"8": {
+					"type": "Color"
+				},
+				"9": {
+					"type": "Color"
+				}
+			},
+			"Row 6": {
+				"type": "Container",
+				"1": {
+					"type": "Color"
+				},
+				"2": {
+					"type": "Color"
+				},
+				"3": {
+					"type": "Color"
+				},
+				"4": {
+					"type": "Color"
+				},
+				"5": {
+					"type": "Color"
+				},
+				"6": {
+					"type": "Color"
+				},
+				"7": {
+					"type": "Color"
+				},
+				"8": {
+					"type": "Color"
+				},
+				"9": {
+					"type": "Color"
+				}
+			},
+			"Row 7": {
+				"type": "Container",
+				"1": {
+					"type": "Color"
+				},
+				"2": {
+					"type": "Color"
+				},
+				"3": {
+					"type": "Color"
+				},
+				"4": {
+					"type": "Color"
+				},
+				"5": {
+					"type": "Color"
+				},
+				"6": {
+					"type": "Color"
+				},
+				"7": {
+					"type": "Color"
+				},
+				"8": {
+					"type": "Color"
+				},
+				"9": {
+					"type": "Color"
+				}
+			},
+			"Row 8": {
+				"type": "Container",
+				"1": {
+					"type": "Color"
+				},
+				"2": {
+					"type": "Color"
+				},
+				"3": {
+					"type": "Color"
+				},
+				"4": {
+					"type": "Color"
+				},
+				"5": {
+					"type": "Color"
+				},
+				"6": {
+					"type": "Color"
+				},
+				"7": {
+					"type": "Color"
+				},
+				"8": {
+					"type": "Color"
+				},
+				"9": {
+					"type": "Color"
+				}
+			}
+		}
+	},
+	"defaults": {
+		"devices": [
+			"Launchpad X",
+			"Launchpad X"
+		],
+		"autoAdd": false
+	},
+	"hideDefaultParameters": [
+		"autoAdd",
+		"autoFeedback",
+		"useHierarchy",
+		"octaveShift",
+		"usePitchForNoteNames"
+	],
+	"scripts": [
+		"launchpadx.js"
+	],
+	"values": {
+		"type": "Container",
+		"Pads": {
+			"type": "Container",
+			"Transport": {
+				"type": "Container",
+				"Up": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"Down": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"Left": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"Right": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"Session": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"Note": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"Custom": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"Capture": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"Logo": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				}
+			},
+			"Row 1": {
+				"type": "Container",
+				"1": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"2": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"3": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"4": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"5": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"6": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"7": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"8": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"9": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				}
+			},
+			"Row 2": {
+				"type": "Container",
+				"1": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"2": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"3": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"4": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"5": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"6": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"7": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"8": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"9": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				}
+			},
+			"Row 3": {
+				"type": "Container",
+				"1": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"2": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"3": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"4": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"5": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"6": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"7": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"8": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"9": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				}
+			},
+			"Row 4": {
+				"type": "Container",
+				"1": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"2": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"3": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"4": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"5": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"6": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"7": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"8": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"9": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				}
+			},
+			"Row 5": {
+				"type": "Container",
+				"1": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"2": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"3": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"4": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"5": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"6": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"7": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"8": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"9": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				}
+			},
+			"Row 6": {
+				"type": "Container",
+				"1": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"2": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"3": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"4": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"5": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"6": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"7": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"8": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"9": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				}
+			},
+			"Row 7": {
+				"type": "Container",
+				"1": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"2": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"3": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"4": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"5": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"6": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"7": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"8": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"9": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				}
+			},
+			"Row 8": {
+				"type": "Container",
+				"1": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"2": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"3": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"4": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"5": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"6": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"7": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"8": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				},
+				"9": {
+					"type": "Float",
+					"min":0,
+					"max":1
+				}
+			}
+		}
+	},
+	"commands": {
+		"Set Color": {
+			"menu": "",
+			"callback": "setColor",
+			"parameters": {
+				"Type": {
+					"type": "Enum",
+					"options":
+					{
+						"Transport":0,
+						"RowColumn":1,
+						"ID":2
+					}
+				},
+				"Transport ID": {
+					"type": "Enum",
+					"dependency": { 
+						"source":"type", 
+						"value":0, 
+						"check":"equals", 
+						"action":"show" 
+					} ,
+					"options":
+					{
+						"Up":0,
+						"Down":1,
+						"Left":2,
+						"Right":3,
+						"Session":4,
+						"Note":5,
+						"Custom":6,
+						"Capture":7,
+						"Logo":8
+					}
+				},
+				"Row":
+				{
+					"type":"Integer",
+					"dependency": { 
+						"source":"type", 
+						"value":1, 
+						"check":"equals", 
+						"action":"show" 
+					},
+					"min":1,
+					"max":9
+				},
+				"Column":
+				{
+					"type":"Integer",
+					"dependency": { 
+						"source":"type", 
+						"value":1, 
+						"check":"equals", 
+						"action":"show" 
+					},
+					"min":1,
+					"max":9
+				},
+				"ID":
+				{
+					"type":"Integer",
+					"dependency": { 
+						"source":"type", 
+						"value":2, 
+						"check":"equals", 
+						"action":"show" 
+					},
+					"min":1,
+					"max":81
+				},
+				"Color": {
+					"type": "Color",
+					"mappingIndex": 0
+				}
+			}
+		},
+		"Clear Colors":
+		{
+			"menu": "",
+			"callback": "clearColors"
+		}
+	}
+}
