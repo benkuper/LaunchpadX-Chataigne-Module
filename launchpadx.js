@@ -77,6 +77,10 @@ function sendRowColumnColor(row, column, col) {
 function moduleParameterChanged(param) {
     if (param.getParent().getParent() == local.parameters.colors) {
         updateColorParam(param);
+    }else if(param.is(local.parameters.devices) || param.is(local.parameters.isConnected)){
+        initLaunchpad();
+    }else if(param.is(local.parameters.initialize)){
+        initLaunchpad();
     }
 }
 

@@ -2,7 +2,7 @@
 	"name": "Launchpad X",
 	"type": "MIDI",
 	"path": "Hardware",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "MIDI Module for Novation's Launchpad X",
 	"url": "https://github.com/benkuper/LaunchpadX-Chataigne-Module",
 	"downloadURL": "https://github.com/benkuper/LaunchpadX-Chataigne-Module/archive/refs/heads/main.zip",
@@ -10,6 +10,10 @@
 	"hasOutput": true,
 	"hideDefaultCommands": true,
 	"parameters": {
+		"Initialize" : {
+			"type":"Trigger",
+			"description":"Initialize the Launchpad X to Programmer Mode"
+		},
 		"Highlight on Press": {
 			"type": "Boolean"
 		},
